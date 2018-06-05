@@ -1,8 +1,344 @@
-	
-<button class="mybtn" onclick="like()">click me</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to my profile</title>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="mlogo.png">-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+<!--Start-->
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+
+
+
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+
+            <a href="#"><li class="text-light">Contact Me</li></a>
+            <a href="#"><li class="text-light">Services</li></a>
+            <a href="#"><li class="text-light">Portfolio</li></a>
+            <a href="#"><li class="text-light">About Me</li></a>
+
+            <a href=""><li class="text-light">Home</li></a>
+        </ul>
+    </div>
+
+        <!--TEXT SECTION-->
+      <section id="textpart" class="">
+          <div class="container">
+              <div class="py-3 lgo">
+                  <a>F<span class="text-info">OYSAL</span></a>
+              </div>
+              <div class="row">
+                  <div class="col-md-8 text">
+                               <h2 class="hiam pb-2">Hi,I'm</h2>
+                               <h3 class="foyahm pt-3">Foysal Ahmed</h3>
+                              <h1 class="foysal"></h1>
+                              <script type="text/javascript" src="typed.js"></script>
+                              <script type="text/javascript">
+                                  var typed = new Typed(".foysal", {
+                                      strings:[
+                                          "Web Designer",
+                                          "Front-End Developer",
+                                          "Back-End Developer",
+                                          "Web Developer",
+                                          "Full stack Web Developer",
+                                          "Full stack Web Developer",
+                                      ],
+                                      typeSpeed:60,
+                                      backSpeed:60,
+                                      loop:true
+                                  });
+
+                              </script>
+                      <a href="" class="btn btn-outline-danger btn-lg text-light">CONTACT ME</a>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="1.jpg" class="img-fluid rounded-circle py-5 img align-middle">
+                  </div>
+
+              </div>
+
+
+          </div>
+      </section>
+<section id="aboutpart" class="text-center py-5 bg-light text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="abtme">About Me</h2>
+                    <p class="lead pb-5 abtt">Hi World!My Name Is Foysal and this is a Website dedicated to showcasing me and my work.Throughout this portfolio,you will have the opportunity to learn about me,my choice of career,and my life as well as my personality.
+                        Who am I?I am a student of DAFFODIL INTERNATIONAL UNIVERSITY.I love to create!i'm a front-end developer with a set of design chops.I enjoy taking complex problems and  turning them into simple and beauiful interface designs.I also love the logic and structure of coding and always strive to write elegant and efficient code.whether it be HTML,CSS or jQuery
+
+                       <p class="lead pb-5 abtt">I enjoy travelling,going to concerts & movies,online gaming or going to bike rides.</p>
+            </div>
+        </div>
+</section>
+<section id="service" class="text-center bg-light py-5">
+    <div class="container">
+        <h3 class="text-center text-dark">My Awesome Service.</h3>
+        <div class="row">
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fab fa-500px pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Branding</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fab fa-modx pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Web Design</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-paper-plane pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Marketing</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--SKILL PART-->
+<section id="skill" class="py-5">
+    <div class="container">
+        <h2 class="text-center py-3 text-light mb-5">My Key Skills.</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="html text-light">html5</h2>
+               <div class="progress " style="height:7px;">
+                   <div class="progress-bar one" style="width:85%;"></div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="Wordpress text-light">Wordpress</h2>
+                <div class="progress" style="height:7px;">
+                    <div class="progress-bar two" style="width:70%;"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="Responsive text-light">Responsive Design</h2>
+                <div class="progress" style="height:7px;">
+                    <div class="progress-bar three" style="width:95%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-4">
+                <h2 class="html text-light">Css3</h2>
+                <div class="progress" style="height:7px;">
+                    <div class="progress-bar four" style="width:85%;"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="Wordpress text-light">Bootstrap</h2>
+                <div class="progress" style="height:7px;">
+                    <div class="progress-bar five" style="width:90%;"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="Responsive text-light">Javascript</h2>
+                <div class="progress" style="height:7px;">
+                    <div class="progress-bar six" style="width:65%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Recent Work-->
+<section id="" class="text-center">
+    <div class="container">
+        <h3 class="text-center py-5">My Recent Works.</h3>
+        <div class="row">
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fab fa-500px pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Branding</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fab fa-modx pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Branding</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-paper-plane pb-3"></i>
+                        </div>
+                        <h4 class="text-dark">Branding</h4>
+                        <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fab fa-500px pb-3"></i>
+                            </div>
+                            <h4 class="text-dark">Branding</h4>
+                            <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fab fa-modx pb-3"></i>
+                            </div>
+                            <h4 class="text-dark">Branding</h4>
+                            <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <i class="fas fa-paper-plane pb-3"></i>
+                            </div>
+                            <h4 class="text-dark">Branding</h4>
+                            <p class="lead pb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, voluptatem.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!--LAST PART-->
+<section id="hello" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-light py-5">Say Hello!</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <i class="fas fa-map-marker-alt location"></i>
+                </div>
+                <p class=" lead text-light pt-3 dk">Dhaka,Bangladesh</p>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <i class="fas fa-phone phn"></i>
+                </div>
+                <p class="lead text-light pt-3 phns">+8801732442026</p>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <i class="fas fa-at mail"></i>
+                </div>
+                <p class="lead text-light pt-3 mails">Shawon@mdfoysalahmed.me</p>
+            </div>
+        </div>
+        <section id="form" class="py-5">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control bg-transparent" placeholder="Name">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control bg-transparent" placeholder="Email">
+                    </div>
+                </div>
+                <div class="py-5">
+                    <textarea class="form-control msg bg-transparent" rows="6" placeholder="Your Message"></textarea>
+                </div>
+                <a class="btn btn-outline-light text-center text-light btns">Submit Now</a>
+            </form>
+         </div>
+</section>
+<footer id="last" class="py-3 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="https://www.facebook.com/foysalahmed.shaw0n">
+                    <i class="fab fa-facebook-f p-3"></i>
+                </a>
+                <a href="https://twitter.com/Foysalahmed_bd/followers">
+                    <i class="fab fa-twitter p-3"></i>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                    <i class="fab fa-linkedin-in p-3"></i>
+                </a>
+                <a href="https://www.instagram.com/_foysalahmed_/">
+                    <i class="fab fa-instagram p-3"></i>
+                </a>
+            </div>
+        </div>
+        <p class="lead pt-3 text-light">&copy;Copyright 2018 FOYSAL |All RightReserved</p>
+    </div>
+</footer>
+
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/navbar-fixed.js"></script>
 <script>
-   function like() {
-  alert("You're Clicked on my post");
-  };
-   
- </script>
+    $("#wrapper").click( function() {
+        $(".menu").toggleClass("close");
+    });
+    $('.typed-cursor').css('display','none');
+</script>
+
+
+</body>
